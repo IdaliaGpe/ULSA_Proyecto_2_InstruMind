@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0E88A728EC7DF700CD368C /* InstrumentosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88A628EC7DF700CD368C /* InstrumentosController.swift */; };
+		3D0E88AB28EC8A0200CD368C /* DetallesInstrumentosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88AA28EC8A0200CD368C /* DetallesInstrumentosController.swift */; };
+		3D0E88AD28EC8FE100CD368C /* Musicos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88AC28EC8FE100CD368C /* Musicos.swift */; };
+		3D0E88AF28EC90B500CD368C /* CeldaMusicoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88AE28EC90B500CD368C /* CeldaMusicoController.swift */; };
+		3D0E88B028EC9A2200CD368C /* Quick.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D678A6E28EB32D0004C8802 /* Quick.ttf */; };
 		3D678A2B28EB28EC004C8802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A2A28EB28EC004C8802 /* AppDelegate.swift */; };
 		3D678A2D28EB28EC004C8802 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A2C28EB28EC004C8802 /* SceneDelegate.swift */; };
-		3D678A2F28EB28EC004C8802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A2E28EB28EC004C8802 /* ViewController.swift */; };
 		3D678A3228EB28EC004C8802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D678A3028EB28EC004C8802 /* Main.storyboard */; };
 		3D678A3428EB28F2004C8802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D678A3328EB28F2004C8802 /* Assets.xcassets */; };
 		3D678A3728EB28F2004C8802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D678A3528EB28F2004C8802 /* LaunchScreen.storyboard */; };
 		3D678A4228EB28F2004C8802 /* Proyecto_Parcial_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A4128EB28F2004C8802 /* Proyecto_Parcial_2Tests.swift */; };
 		3D678A4D28EB28F2004C8802 /* Proyecto_Parcial_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A4C28EB28F2004C8802 /* Proyecto_Parcial_2UITests.swift */; };
+		3D678A7128EB3906004C8802 /* Instrumentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A7028EB3906004C8802 /* Instrumentos.swift */; };
+		3D678A7528EB3B75004C8802 /* CeldaInstrumentosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A7428EB3B75004C8802 /* CeldaInstrumentosController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D678A2728EB28EC004C8802 /* Proyecto_Parcial_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto_Parcial_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0E88A628EC7DF700CD368C /* InstrumentosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentosController.swift; sourceTree = "<group>"; };
+		3D0E88AA28EC8A0200CD368C /* DetallesInstrumentosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesInstrumentosController.swift; sourceTree = "<group>"; };
+		3D0E88AC28EC8FE100CD368C /* Musicos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musicos.swift; sourceTree = "<group>"; };
+		3D0E88AE28EC90B500CD368C /* CeldaMusicoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMusicoController.swift; sourceTree = "<group>"; };
+		3D678A2728EB28EC004C8802 /* IntruMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntruMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D678A2A28EB28EC004C8802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D678A2C28EB28EC004C8802 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D678A2E28EB28EC004C8802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D678A3128EB28EC004C8802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D678A3328EB28F2004C8802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D678A3628EB28F2004C8802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		3D678A4828EB28F2004C8802 /* Proyecto_Parcial_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proyecto_Parcial_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D678A4C28EB28F2004C8802 /* Proyecto_Parcial_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto_Parcial_2UITests.swift; sourceTree = "<group>"; };
 		3D678A4E28EB28F2004C8802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D678A6E28EB32D0004C8802 /* Quick.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quick.ttf; sourceTree = "<group>"; };
+		3D678A7028EB3906004C8802 /* Instrumentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrumentos.swift; sourceTree = "<group>"; };
+		3D678A7428EB3B75004C8802 /* CeldaInstrumentosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaInstrumentosController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +101,7 @@
 		3D678A2828EB28EC004C8802 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D678A2728EB28EC004C8802 /* Proyecto_Parcial_2.app */,
+				3D678A2728EB28EC004C8802 /* IntruMind.app */,
 				3D678A3D28EB28F2004C8802 /* Proyecto_Parcial_2Tests.xctest */,
 				3D678A4828EB28F2004C8802 /* Proyecto_Parcial_2UITests.xctest */,
 			);
@@ -99,13 +111,12 @@
 		3D678A2928EB28EC004C8802 /* Proyecto_Parcial_2 */ = {
 			isa = PBXGroup;
 			children = (
-				3D678A2A28EB28EC004C8802 /* AppDelegate.swift */,
-				3D678A2C28EB28EC004C8802 /* SceneDelegate.swift */,
-				3D678A2E28EB28EC004C8802 /* ViewController.swift */,
-				3D678A3028EB28EC004C8802 /* Main.storyboard */,
-				3D678A3328EB28F2004C8802 /* Assets.xcassets */,
-				3D678A3528EB28F2004C8802 /* LaunchScreen.storyboard */,
-				3D678A3828EB28F2004C8802 /* Info.plist */,
+				3D678A6F28EB32D6004C8802 /* Assets */,
+				3D678A6D28EB2B0A004C8802 /* Delegate */,
+				3D678A6028EB2A3D004C8802 /* Info */,
+				3D678A5D28EB29EB004C8802 /* Vistas */,
+				3D678A6C28EB2AF1004C8802 /* Controller */,
+				3D678A5A28EB2930004C8802 /* Modelos */,
 			);
 			path = Proyecto_Parcial_2;
 			sourceTree = "<group>";
@@ -128,6 +139,61 @@
 			path = Proyecto_Parcial_2UITests;
 			sourceTree = "<group>";
 		};
+		3D678A5A28EB2930004C8802 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				3D678A7028EB3906004C8802 /* Instrumentos.swift */,
+				3D0E88AC28EC8FE100CD368C /* Musicos.swift */,
+			);
+			name = Modelos;
+			sourceTree = "<group>";
+		};
+		3D678A5D28EB29EB004C8802 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				3D678A3028EB28EC004C8802 /* Main.storyboard */,
+				3D678A3528EB28F2004C8802 /* LaunchScreen.storyboard */,
+			);
+			name = Vistas;
+			sourceTree = "<group>";
+		};
+		3D678A6028EB2A3D004C8802 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				3D678A3328EB28F2004C8802 /* Assets.xcassets */,
+				3D678A3828EB28F2004C8802 /* Info.plist */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		3D678A6C28EB2AF1004C8802 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D678A7428EB3B75004C8802 /* CeldaInstrumentosController.swift */,
+				3D0E88AE28EC90B500CD368C /* CeldaMusicoController.swift */,
+				3D0E88A628EC7DF700CD368C /* InstrumentosController.swift */,
+				3D0E88AA28EC8A0200CD368C /* DetallesInstrumentosController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3D678A6D28EB2B0A004C8802 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3D678A2A28EB28EC004C8802 /* AppDelegate.swift */,
+				3D678A2C28EB28EC004C8802 /* SceneDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		3D678A6F28EB32D6004C8802 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3D678A6E28EB32D0004C8802 /* Quick.ttf */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,7 +211,7 @@
 			);
 			name = Proyecto_Parcial_2;
 			productName = Proyecto_Parcial_2;
-			productReference = 3D678A2728EB28EC004C8802 /* Proyecto_Parcial_2.app */;
+			productReference = 3D678A2728EB28EC004C8802 /* IntruMind.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3D678A3C28EB28F2004C8802 /* Proyecto_Parcial_2Tests */ = {
@@ -234,6 +300,7 @@
 			files = (
 				3D678A3728EB28F2004C8802 /* LaunchScreen.storyboard in Resources */,
 				3D678A3428EB28F2004C8802 /* Assets.xcassets in Resources */,
+				3D0E88B028EC9A2200CD368C /* Quick.ttf in Resources */,
 				3D678A3228EB28EC004C8802 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D678A2F28EB28EC004C8802 /* ViewController.swift in Sources */,
+				3D678A7128EB3906004C8802 /* Instrumentos.swift in Sources */,
+				3D0E88A728EC7DF700CD368C /* InstrumentosController.swift in Sources */,
+				3D678A7528EB3B75004C8802 /* CeldaInstrumentosController.swift in Sources */,
+				3D0E88AD28EC8FE100CD368C /* Musicos.swift in Sources */,
 				3D678A2B28EB28EC004C8802 /* AppDelegate.swift in Sources */,
+				3D0E88AF28EC90B500CD368C /* CeldaMusicoController.swift in Sources */,
+				3D0E88AB28EC8A0200CD368C /* DetallesInstrumentosController.swift in Sources */,
 				3D678A2D28EB28EC004C8802 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +513,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Proyecto-Parcial-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IntruMind;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +530,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Proyecto-Parcial-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IntruMind;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
