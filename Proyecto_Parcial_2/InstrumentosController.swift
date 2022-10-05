@@ -27,20 +27,20 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
         instrumentos.append(Instrumentos(nombre: "Trompeta", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Edad Media", creador: "Egipcios", popularidad: "Media", generos: "Mariachi", grupo: "Los Camperos", scena: ""))
         //4 - Listo
         instrumentos.append(Instrumentos(nombre: "Flauta", tipo: "Aire", dificultad: "Baja", material: "Madera", año: "Edad Media", creador: "Desconocido", popularidad: "Baja", generos: "Barroca", grupo: "Gentle Giant", scena: "piano"))
-        //5 - Listos
+        //5 - Listo
         instrumentos.append(Instrumentos(nombre: "Flauta Travesera", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Siglo XIX", creador: "Theobald Böhm", popularidad: "Media", generos: "Clasica", grupo: "Orquestas", scena: ""))
-        //6
-        instrumentos.append(Instrumentos(nombre: "Trompeta", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Edad Media", creador: "Egipcios", popularidad: "Media", generos: "Mariachi", grupo: "Los Camperos", scena: ""))
-        //7
-        instrumentos.append(Instrumentos(nombre: "Piano", tipo: "Percusion", dificultad: "Alta", material: "Metal", año: "1700", creador: "Bartolomeo Cristofori", popularidad: "Alta", generos: "Clasica", grupo: "Keane", scena: "piano"))
-        //8
-        instrumentos.append(Instrumentos(nombre: "Violin", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "siglo XVI", creador: "François Tourte (Forma actual)", popularidad: "Alta", generos: "Clasica", grupo: "Mago de Oz", scena: ""))
-        //9
-        instrumentos.append(Instrumentos(nombre: "Trompeta", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Edad Media", creador: "Egipcios", popularidad: "Media", generos: "Mariachi", grupo: "Los Camperos", scena: ""))
-        //10
-        instrumentos.append(Instrumentos(nombre: "Piano", tipo: "Percusion", dificultad: "Alta", material: "Metal", año: "1700", creador: "Bartolomeo Cristofori", popularidad: "Alta", generos: "Clasica", grupo: "Keane", scena: "piano"))
-        //11
-        instrumentos.append(Instrumentos(nombre: "Violin", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "siglo XVI", creador: "François Tourte (Forma actual)", popularidad: "Alta", generos: "Clasica", grupo: "Mago de Oz", scena: ""))
+        //6 - Listo
+        instrumentos.append(Instrumentos(nombre: "Organo", tipo: "Aire", dificultad: "Alta", material: "Madera / Metal", año: "Siglo VII", creador: "Ctesibio", popularidad: "Baja", generos: "Ceremonial", grupo: "Desconocidos", scena: ""))
+        //7 - Listo
+        instrumentos.append(Instrumentos(nombre: "Bateria", tipo: "Percusion", dificultad: "Alta", material: "Caja", año: "Siglo XIX", creador: "Estados Unidos", popularidad: "Alta", generos: "Romantica", grupo: "Queen", scena: "piano"))
+        //8 - Listo
+        instrumentos.append(Instrumentos(nombre: "Xilófono", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "500 d.C.", creador: "Griegos", popularidad: "Baja", generos: "Varios", grupo: "Ensamble", scena: ""))
+        //9 - Listo
+        instrumentos.append(Instrumentos(nombre: "Guitarra Electrica", tipo: "Electronico", dificultad: "Media", material: "Metal", año: "1950", creador: "Leo Fender", popularidad: "Alta", generos: "Jazz", grupo: "Camp Cope", scena: ""))
+        //10 - Listo
+        instrumentos.append(Instrumentos(nombre: "Gong", tipo: "Percusion", dificultad: "Baja", material: "Metal", año: "3500 A. C.", creador: "Asia Oriental", popularidad: "Baja", generos: "Cereminial", grupo: "Orquetas", scena: "piano"))
+        //11 - Listo
+        instrumentos.append(Instrumentos(nombre: "Trombón", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "3000 a. C.", creador: "Egipcios", popularidad: "Media", generos: "Rock", grupo: "Bonerama", scena: ""))
         //12
         instrumentos.append(Instrumentos(nombre: "Trompeta", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Edad Media", creador: "Egipcios", popularidad: "Media", generos: "Mariachi", grupo: "Los Camperos", scena: ""))
         //13
@@ -67,24 +67,24 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
         //5 - Flauta Travesera
         instrumentos[4].musico.append(Musico(nombre: "Jean-Pierre Rampal", grupo: "Solista"))
         instrumentos[4].musico.append(Musico(nombre: "Marcel Moyse", grupo: "Solista"))
-        //6
-        instrumentos[5].musico.append(Musico(nombre: "Itzhak Perlman", grupo: "Solista"))
-        instrumentos[5].musico.append(Musico(nombre: "Maxim Vengerov", grupo: "Solista / Profesor"))
-        //7
-        instrumentos[6].musico.append(Musico(nombre: "Louis Lortie", grupo: "Solista"))
-        instrumentos[6].musico.append(Musico(nombre: "Yuja Wang", grupo: "Solista"))
-        //8
-        instrumentos[7].musico.append(Musico(nombre: "Louis Lortie", grupo: "Solista"))
-        instrumentos[7].musico.append(Musico(nombre: "Yuja Wang", grupo: "Solista"))
-        //9
-        instrumentos[8].musico.append(Musico(nombre: "Louis Lortie", grupo: "Solista"))
-        instrumentos[8].musico.append(Musico(nombre: "Yuja Wang", grupo: "Solista"))
-        //10
-        instrumentos[9].musico.append(Musico(nombre: "Itzhak Perlman", grupo: "Solista"))
-        instrumentos[9].musico.append(Musico(nombre: "Maxim Vengerov", grupo: "Solista / Profesor"))
-        //11
-        instrumentos[10].musico.append(Musico(nombre: "Louis Lortie", grupo: "Solista"))
-        instrumentos[10].musico.append(Musico(nombre: "Yuja Wang", grupo: "Solista"))
+        //6 - Organo
+        instrumentos[5].musico.append(Musico(nombre: "Felipe Ramírez Ramírez", grupo: "Compositor"))
+        instrumentos[5].musico.append(Musico(nombre: "Víctor Urbán", grupo: "Cartedratico"))
+        //7 - Bateria
+        instrumentos[6].musico.append(Musico(nombre: "Bill Bruford", grupo: "Genesis"))
+        instrumentos[6].musico.append(Musico(nombre: "Max Weinberg", grupo: "Max Weinberg 7"))
+        //8 - Xilofono
+        instrumentos[7].musico.append(Musico(nombre: "Lionel Hampton", grupo: "Solista"))
+        instrumentos[7].musico.append(Musico(nombre: "Teddy Brown", grupo: "Solista"))
+        //9 - Guitarra Electrica
+        instrumentos[8].musico.append(Musico(nombre: "James Allen Hendrix", grupo: "The Jimi Hendrix Experience"))
+        instrumentos[8].musico.append(Musico(nombre: "Jeff Beck", grupo: "The Yardbirds"))
+        //10 - Gong
+        instrumentos[9].musico.append(Musico(nombre: "Variado", grupo: "Orquetas"))
+        instrumentos[9].musico.append(Musico(nombre: "Tradicionales", grupo: "Ceremonias"))
+        //11 - Trombon
+        instrumentos[10].musico.append(Musico(nombre: "Mark Mullins", grupo: "Bonerama"))
+        instrumentos[10].musico.append(Musico(nombre: "Craig Klein", grupo: "Bonerama"))
         //12
         instrumentos[11].musico.append(Musico(nombre: "Louis Lortie", grupo: "Solista"))
         instrumentos[11].musico.append(Musico(nombre: "Yuja Wang", grupo: "Solista"))
