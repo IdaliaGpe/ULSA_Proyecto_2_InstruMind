@@ -12,6 +12,7 @@
 		3D0E88AD28EC8FE100CD368C /* Musicos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88AC28EC8FE100CD368C /* Musicos.swift */; };
 		3D0E88AF28EC90B500CD368C /* CeldaMusicoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88AE28EC90B500CD368C /* CeldaMusicoController.swift */; };
 		3D0E88B028EC9A2200CD368C /* Quick.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D678A6E28EB32D0004C8802 /* Quick.ttf */; };
+		3D64209B28EDCCCB0009A920 /* BroadwayFlat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D64209A28EDCCCB0009A920 /* BroadwayFlat.ttf */; };
 		3D678A2B28EB28EC004C8802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A2A28EB28EC004C8802 /* AppDelegate.swift */; };
 		3D678A2D28EB28EC004C8802 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A2C28EB28EC004C8802 /* SceneDelegate.swift */; };
 		3D678A3228EB28EC004C8802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D678A3028EB28EC004C8802 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		3D0E88AA28EC8A0200CD368C /* DetallesInstrumentosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesInstrumentosController.swift; sourceTree = "<group>"; };
 		3D0E88AC28EC8FE100CD368C /* Musicos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musicos.swift; sourceTree = "<group>"; };
 		3D0E88AE28EC90B500CD368C /* CeldaMusicoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMusicoController.swift; sourceTree = "<group>"; };
+		3D64209A28EDCCCB0009A920 /* BroadwayFlat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BroadwayFlat.ttf; sourceTree = "<group>"; };
 		3D678A2728EB28EC004C8802 /* IntruMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntruMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D678A2A28EB28EC004C8802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D678A2C28EB28EC004C8802 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		3D678A6F28EB32D6004C8802 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				3D64209A28EDCCCB0009A920 /* BroadwayFlat.ttf */,
 				3D678A6E28EB32D0004C8802 /* Quick.ttf */,
 			);
 			name = Assets;
@@ -298,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D64209B28EDCCCB0009A920 /* BroadwayFlat.ttf in Resources */,
 				3D678A3728EB28F2004C8802 /* LaunchScreen.storyboard in Resources */,
 				3D678A3428EB28F2004C8802 /* Assets.xcassets in Resources */,
 				3D0E88B028EC9A2200CD368C /* Quick.ttf in Resources */,
