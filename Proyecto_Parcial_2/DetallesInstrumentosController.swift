@@ -39,7 +39,7 @@ class DetallesInstrumentosController: UIViewController, UITableViewDelegate, UIT
             lblPopularidad.text = instrumentos?.popularidad
             lblGeneros.text = instrumentos?.generos
             lblGrupo.text = instrumentos?.grupo
-            lblImagen.image = UIImage(named: "\(instrumentos!.escena)")
+            lblImagen.image = UIImage(named: "\(instrumentos!.escena)2")
         }
     }
     

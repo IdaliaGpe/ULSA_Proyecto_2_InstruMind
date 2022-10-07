@@ -22,11 +22,11 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
         //1 - Listo
         instrumentos.append(Instrumentos(nombre: "Piano", tipo: "Percusion", dificultad: "Alta", material: "Metal", año: "1700", creador: "Bartolomeo Cristofori", popularidad: "Alta", generos: "Clasica", grupo: "Keane", scena: "piano"))
         //2 - Listo
-        instrumentos.append(Instrumentos(nombre: "Violin", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "Siglo XVI", creador: "François Tourte (Forma actual)", popularidad: "Alta", generos: "Clasica", grupo: "Mago de Oz", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Violin", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "Siglo XVI", creador: "François Tourte (Forma actual)", popularidad: "Alta", generos: "Clasica", grupo: "Mago de Oz", scena: "violin"))
         //3 - Listo
-        instrumentos.append(Instrumentos(nombre: "Trompeta", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Edad Media", creador: "Egipcios", popularidad: "Media", generos: "Mariachi", grupo: "Los Camperos", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Trompeta", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Edad Media", creador: "Egipcios", popularidad: "Media", generos: "Mariachi", grupo: "Los Camperos", scena: "trompeta"))
         //4 - Listo
-        instrumentos.append(Instrumentos(nombre: "Flauta", tipo: "Aire", dificultad: "Baja", material: "Madera", año: "Edad Media", creador: "Desconocido", popularidad: "Baja", generos: "Barroca", grupo: "Gentle Giant", scena: "piano"))
+        instrumentos.append(Instrumentos(nombre: "Flauta", tipo: "Aire", dificultad: "Baja", material: "Madera", año: "Edad Media", creador: "Desconocido", popularidad: "Baja", generos: "Barroca", grupo: "Gentle Giant", scena: "flauta"))
         //5 - Listo
         instrumentos.append(Instrumentos(nombre: "Flauta Travesera", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Siglo XIX", creador: "Theobald Böhm", popularidad: "Media", generos: "Clasica", grupo: "Orquestas", scena: ""))
         //6 - Listo
@@ -41,15 +41,14 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
         instrumentos.append(Instrumentos(nombre: "Gong", tipo: "Percusion", dificultad: "Baja", material: "Metal", año: "3500 A. C.", creador: "Asia Oriental", popularidad: "Baja", generos: "Cereminial", grupo: "Orquetas", scena: "piano"))
         //11 - Listo
         instrumentos.append(Instrumentos(nombre: "Trombón", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "3000 a. C.", creador: "Egipcios", popularidad: "Media", generos: "Rock", grupo: "Bonerama", scena: ""))
-        //12
-        instrumentos.append(Instrumentos(nombre: "Trompeta", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Edad Media", creador: "Egipcios", popularidad: "Media", generos: "Mariachi", grupo: "Los Camperos", scena: ""))
-        //13
-        instrumentos.append(Instrumentos(nombre: "Piano", tipo: "Percusion", dificultad: "Alta", material: "Metal", año: "1700", creador: "Bartolomeo Cristofori", popularidad: "Alta", generos: "Clasica", grupo: "Keane", scena: "piano"))
-        //14
-        instrumentos.append(Instrumentos(nombre: "Violin", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "siglo XVI", creador: "François Tourte (Forma actual)", popularidad: "Alta", generos: "Clasica", grupo: "Mago de Oz", scena: ""))
-        //15
-        instrumentos.append(Instrumentos(nombre: "Trompeta", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Edad Media", creador: "Egipcios", popularidad: "Media", generos: "Mariachi", grupo: "Los Camperos", scena: ""))
-        
+        //12 - Listo
+        instrumentos.append(Instrumentos(nombre: "Guitarra", tipo: "Cuerda", dificultad: "Baja", material: "Madera", año: "Edad Media", creador: "España", popularidad: "Alta", generos: "Mariachi", grupo: "Mariachis", scena: ""))
+        //13 - Listo
+        instrumentos.append(Instrumentos(nombre: "Arpa", tipo: "Cuerda", dificultad: "Alta", material: "Metal", año: "Siglo XVII", creador: "Israel", popularidad: "Baja", generos: "Jazz", grupo: "Los Barajas", scena: "piano"))
+        //14 - Listo
+        instrumentos.append(Instrumentos(nombre: "Clarinete", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Desconocdio", creador: "Europa", popularidad: "Alta", generos: "Clasica", grupo: "Orquesta", scena: ""))
+        //15 - Listo
+        instrumentos.append(Instrumentos(nombre: "Saxofón", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "1840", creador: "Adolphe Sax", popularidad: "Alta", generos: "Jazz", grupo: "Blue moon", scena: ""))
         
         //Musicos
         //1 - Piano
@@ -85,18 +84,18 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
         //11 - Trombon
         instrumentos[10].musico.append(Musico(nombre: "Mark Mullins", grupo: "Bonerama"))
         instrumentos[10].musico.append(Musico(nombre: "Craig Klein", grupo: "Bonerama"))
-        //12
-        instrumentos[11].musico.append(Musico(nombre: "Louis Lortie", grupo: "Solista"))
-        instrumentos[11].musico.append(Musico(nombre: "Yuja Wang", grupo: "Solista"))
-        //13
-        instrumentos[12].musico.append(Musico(nombre: "Itzhak Perlman", grupo: "Solista"))
-        instrumentos[12].musico.append(Musico(nombre: "Maxim Vengerov", grupo: "Solista / Profesor"))
-        //14
-        instrumentos[13].musico.append(Musico(nombre: "Louis Lortie", grupo: "Solista"))
-        instrumentos[13].musico.append(Musico(nombre: "Yuja Wang", grupo: "Solista"))
-        //15
-        instrumentos[14].musico.append(Musico(nombre: "Louis Lortie", grupo: "Solista"))
-        instrumentos[14].musico.append(Musico(nombre: "Yuja Wang", grupo: "Solista"))
+        //12 - Guitarra
+        instrumentos[11].musico.append(Musico(nombre: "Fernando Carulli", grupo: "Compositores"))
+        instrumentos[11].musico.append(Musico(nombre: "Agustín Barrios Mangoré", grupo: "Compositores"))
+        //13 - Arpa
+        instrumentos[12].musico.append(Musico(nombre: "Andreas Vollenweider", grupo: "Solista"))
+        instrumentos[12].musico.append(Musico(nombre: "Nadia Birkenstock", grupo: "Solista / Profesor"))
+        //14 - Clarinete
+        instrumentos[13].musico.append(Musico(nombre: "Martin Fröst", grupo: "Solista"))
+        instrumentos[13].musico.append(Musico(nombre: "Benny Goodman", grupo: "Compositor"))
+        //15 - Saxofón
+        instrumentos[14].musico.append(Musico(nombre: "John Coltrane", grupo: "Solista"))
+        instrumentos[14].musico.append(Musico(nombre: "Cayetano Pérez", grupo: "Solista"))
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
