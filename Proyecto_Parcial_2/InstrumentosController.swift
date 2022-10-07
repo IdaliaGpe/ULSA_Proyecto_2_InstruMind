@@ -28,27 +28,27 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
         //4 - Listo
         instrumentos.append(Instrumentos(nombre: "Flauta", tipo: "Aire", dificultad: "Baja", material: "Madera", año: "Edad Media", creador: "Desconocido", popularidad: "Baja", generos: "Barroca", grupo: "Gentle Giant", scena: "flauta"))
         //5 - Listo
-        instrumentos.append(Instrumentos(nombre: "Flauta Travesera", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Siglo XIX", creador: "Theobald Böhm", popularidad: "Media", generos: "Clasica", grupo: "Orquestas", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Flauta Travesera", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Siglo XIX", creador: "Theobald Böhm", popularidad: "Media", generos: "Clasica", grupo: "Orquestas", scena: "flautatravesera"))
         //6 - Listo
-        instrumentos.append(Instrumentos(nombre: "Organo", tipo: "Aire", dificultad: "Alta", material: "Madera / Metal", año: "Siglo VII", creador: "Ctesibio", popularidad: "Baja", generos: "Ceremonial", grupo: "Desconocidos", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Organo", tipo: "Aire", dificultad: "Alta", material: "Madera / Metal", año: "Siglo VII", creador: "Ctesibio", popularidad: "Baja", generos: "Ceremonial", grupo: "Desconocidos", scena: "organo"))
         //7 - Listo
-        instrumentos.append(Instrumentos(nombre: "Bateria", tipo: "Percusion", dificultad: "Alta", material: "Caja", año: "Siglo XIX", creador: "Estados Unidos", popularidad: "Alta", generos: "Romantica", grupo: "Queen", scena: "piano"))
+        instrumentos.append(Instrumentos(nombre: "Bateria", tipo: "Percusion", dificultad: "Alta", material: "Caja", año: "Siglo XIX", creador: "Estados Unidos", popularidad: "Alta", generos: "Romantica", grupo: "Queen", scena: "bateria"))
         //8 - Listo
-        instrumentos.append(Instrumentos(nombre: "Xilófono", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "500 d.C.", creador: "Griegos", popularidad: "Baja", generos: "Varios", grupo: "Ensamble", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Xilófono", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "500 d.C.", creador: "Griegos", popularidad: "Baja", generos: "Varios", grupo: "Ensamble", scena: "xilofono"))
         //9 - Listo
-        instrumentos.append(Instrumentos(nombre: "Guitarra Electrica", tipo: "Electronico", dificultad: "Media", material: "Metal", año: "1950", creador: "Leo Fender", popularidad: "Alta", generos: "Jazz", grupo: "Camp Cope", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Guitarra Electrica", tipo: "Electronico", dificultad: "Media", material: "Metal", año: "1950", creador: "Leo Fender", popularidad: "Alta", generos: "Jazz", grupo: "Camp Cope", scena: "guitarraelectrica"))
         //10 - Listo
-        instrumentos.append(Instrumentos(nombre: "Gong", tipo: "Percusion", dificultad: "Baja", material: "Metal", año: "3500 A. C.", creador: "Asia Oriental", popularidad: "Baja", generos: "Cereminial", grupo: "Orquetas", scena: "piano"))
+        instrumentos.append(Instrumentos(nombre: "Gong", tipo: "Percusion", dificultad: "Baja", material: "Metal", año: "3500 A. C.", creador: "Asia Oriental", popularidad: "Baja", generos: "Cereminial", grupo: "Orquetas", scena: "gong"))
         //11 - Listo
-        instrumentos.append(Instrumentos(nombre: "Trombón", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "3000 a. C.", creador: "Egipcios", popularidad: "Media", generos: "Rock", grupo: "Bonerama", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Trombón", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "3000 a. C.", creador: "Egipcios", popularidad: "Media", generos: "Rock", grupo: "Bonerama", scena: "trombon"))
         //12 - Listo
-        instrumentos.append(Instrumentos(nombre: "Guitarra", tipo: "Cuerda", dificultad: "Baja", material: "Madera", año: "Edad Media", creador: "España", popularidad: "Alta", generos: "Mariachi", grupo: "Mariachis", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Guitarra", tipo: "Cuerda", dificultad: "Baja", material: "Madera", año: "Edad Media", creador: "España", popularidad: "Alta", generos: "Mariachi", grupo: "Mariachis", scena: "guitarra"))
         //13 - Listo
-        instrumentos.append(Instrumentos(nombre: "Arpa", tipo: "Cuerda", dificultad: "Alta", material: "Metal", año: "Siglo XVII", creador: "Israel", popularidad: "Baja", generos: "Jazz", grupo: "Los Barajas", scena: "piano"))
+        instrumentos.append(Instrumentos(nombre: "Arpa", tipo: "Cuerda", dificultad: "Alta", material: "Metal", año: "Siglo XVII", creador: "Israel", popularidad: "Baja", generos: "Jazz", grupo: "Los Barajas", scena: "arpa"))
         //14 - Listo
-        instrumentos.append(Instrumentos(nombre: "Clarinete", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Desconocdio", creador: "Europa", popularidad: "Alta", generos: "Clasica", grupo: "Orquesta", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Clarinete", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Desconocdio", creador: "Europa", popularidad: "Alta", generos: "Clasica", grupo: "Orquesta", scena: "clarinete"))
         //15 - Listo
-        instrumentos.append(Instrumentos(nombre: "Saxofón", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "1840", creador: "Adolphe Sax", popularidad: "Alta", generos: "Jazz", grupo: "Blue moon", scena: ""))
+        instrumentos.append(Instrumentos(nombre: "Saxofón", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "1840", creador: "Adolphe Sax", popularidad: "Alta", generos: "Jazz", grupo: "Blue moon", scena: "saxofon"))
         
         //Musicos
         //1 - Piano
