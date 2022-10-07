@@ -67,6 +67,6 @@ class DetallesInstrumentosController: UIViewController, UITableViewDelegate, UIT
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 61
+        return 81
     }
 }

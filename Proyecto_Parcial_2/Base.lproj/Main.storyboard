@@ -85,22 +85,22 @@
                                 <rect key="frame" x="20" y="347" width="374" height="515"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaMusico" rowHeight="68" id="CSe-p7-6FL" customClass="CeldaMusicoController" customModule="IntruMind" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="374" height="68"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaMusico" rowHeight="81" id="CSe-p7-6FL" customClass="CeldaMusicoController" customModule="IntruMind" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="81"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CSe-p7-6FL" id="lQg-d7-m3Z">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="68"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="81"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ju-Wz-iNu">
-                                                    <rect key="frame" x="20" y="11" width="46" height="17"/>
-                                                    <fontDescription key="fontDescription" name="BroadwayFlat-Regular" family="Broadway Flat" pointSize="17"/>
+                                                    <rect key="frame" x="20" y="11" width="78.333333333333329" height="25"/>
+                                                    <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="23"/>
                                                     <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banda/Solista" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rg2-P2-awj">
-                                                    <rect key="frame" x="20" y="36" width="85.666666666666671" height="17"/>
-                                                    <fontDescription key="fontDescription" name="BroadwayFlat-Regular" family="Broadway Flat" pointSize="17"/>
+                                                    <rect key="frame" x="20" y="44" width="136" height="25"/>
+                                                    <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="23"/>
                                                     <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
