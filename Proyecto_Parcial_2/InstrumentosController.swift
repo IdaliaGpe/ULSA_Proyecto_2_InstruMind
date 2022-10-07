@@ -114,6 +114,10 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
         celda.lblNombre.text = instrumentos[indexPath.row].nombre
         celda.lblTipo.text = instrumentos[indexPath.row].tipo
         celda.lblDificultad.text = instrumentos[indexPath.row].dificultad
+        
+        celda.lblImagen.layer.cornerRadius = celda.lblImagen.frame.size.width / 2
+        celda.lblImagen.clipsToBounds = true
+        
         celda.lblImagen.image = UIImage(named: instrumentos[indexPath.row].escena)
     
         return celda

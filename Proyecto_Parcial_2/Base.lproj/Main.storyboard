@@ -10,6 +10,9 @@
         <array key="BroadwayFlat.ttf">
             <string>BroadwayFlat-Regular</string>
         </array>
+        <array key="Philosopher-Regular.ttf">
+            <string>Philosopher</string>
+        </array>
         <array key="Quick.ttf">
             <string>Quick</string>
         </array>
@@ -23,11 +26,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vNG-XH-BEc">
-                                <rect key="frame" x="241" y="115" width="153" height="173"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vNG-XH-BEc">
+                                <rect key="frame" x="221" y="115" width="173" height="173"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="153" id="c9d-4i-4JX"/>
-                                    <constraint firstAttribute="height" constant="173" id="jj7-im-XZR"/>
+                                    <constraint firstAttribute="width" constant="173" id="ggj-jv-zh2"/>
+                                    <constraint firstAttribute="height" constant="173" id="nLg-Nb-g3J"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sqj-iF-D9P">
@@ -221,33 +224,34 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqc-JB-1Jh">
-                                                    <rect key="frame" x="156" y="78" width="24.666666666666657" height="17"/>
-                                                    <fontDescription key="fontDescription" name="BroadwayFlat-Regular" family="Broadway Flat" pointSize="17"/>
+                                                    <rect key="frame" x="172" y="73" width="43.666666666666657" height="25"/>
+                                                    <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="23"/>
                                                     <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dificultad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eul-yI-P3A">
-                                                    <rect key="frame" x="156" y="133" width="63" height="17"/>
-                                                    <fontDescription key="fontDescription" name="BroadwayFlat-Regular" family="Broadway Flat" pointSize="17"/>
+                                                    <rect key="frame" x="172" y="123" width="95.666666666666686" height="25"/>
+                                                    <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="23"/>
                                                     <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaa-gC-GCw">
-                                                    <rect key="frame" x="156" y="22" width="69" height="23"/>
-                                                    <fontDescription key="fontDescription" name="Quick" family="Quick" pointSize="23"/>
+                                                    <rect key="frame" x="172" y="21" width="90" height="30"/>
+                                                    <fontDescription key="fontDescription" name="Quick" family="Quick" pointSize="30"/>
                                                     <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="eul-yI-P3A" firstAttribute="top" secondItem="iqc-JB-1Jh" secondAttribute="bottom" constant="38" id="1DA-Dh-B5X"/>
-                                                <constraint firstItem="iqc-JB-1Jh" firstAttribute="top" secondItem="eaa-gC-GCw" secondAttribute="bottom" constant="33" id="BHP-Ox-92B"/>
+                                                <constraint firstItem="iqc-JB-1Jh" firstAttribute="leading" secondItem="tV5-El-09B" secondAttribute="trailing" constant="24" id="3aN-NH-vEY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="eul-yI-P3A" secondAttribute="bottom" constant="12" id="3bS-uA-EVe"/>
+                                                <constraint firstItem="eaa-gC-GCw" firstAttribute="leading" secondItem="tV5-El-09B" secondAttribute="trailing" constant="24" id="7ZH-6f-qeP"/>
                                                 <constraint firstItem="tV5-El-09B" firstAttribute="leading" secondItem="qTS-i2-ToY" secondAttribute="leadingMargin" id="HRW-lI-x0t"/>
+                                                <constraint firstItem="iqc-JB-1Jh" firstAttribute="top" secondItem="eaa-gC-GCw" secondAttribute="bottom" constant="22" id="UgP-Yr-X6L"/>
                                                 <constraint firstItem="tV5-El-09B" firstAttribute="top" secondItem="qTS-i2-ToY" secondAttribute="topMargin" constant="11" id="ac7-xF-bc5"/>
-                                                <constraint firstItem="eul-yI-P3A" firstAttribute="leading" secondItem="tV5-El-09B" secondAttribute="trailing" constant="8" id="dp8-Lw-hY4"/>
-                                                <constraint firstItem="eaa-gC-GCw" firstAttribute="leading" secondItem="tV5-El-09B" secondAttribute="trailing" constant="8" id="gtc-OV-UQ5"/>
-                                                <constraint firstItem="eaa-gC-GCw" firstAttribute="top" secondItem="qTS-i2-ToY" secondAttribute="topMargin" constant="11" id="he0-yN-TlU"/>
-                                                <constraint firstItem="iqc-JB-1Jh" firstAttribute="leading" secondItem="tV5-El-09B" secondAttribute="trailing" constant="8" id="y0L-Vz-nxA"/>
+                                                <constraint firstItem="eul-yI-P3A" firstAttribute="leading" secondItem="tV5-El-09B" secondAttribute="trailing" constant="24" id="bbY-mg-Mh6"/>
+                                                <constraint firstItem="eaa-gC-GCw" firstAttribute="top" secondItem="qTS-i2-ToY" secondAttribute="topMargin" constant="10" id="vgC-RB-Hcg"/>
+                                                <constraint firstItem="eul-yI-P3A" firstAttribute="top" secondItem="iqc-JB-1Jh" secondAttribute="bottom" constant="25" id="xiR-Mh-ln9"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>

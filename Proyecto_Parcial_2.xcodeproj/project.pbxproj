@@ -22,6 +22,7 @@
 		3D678A4D28EB28F2004C8802 /* Proyecto_Parcial_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A4C28EB28F2004C8802 /* Proyecto_Parcial_2UITests.swift */; };
 		3D678A7128EB3906004C8802 /* Instrumentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A7028EB3906004C8802 /* Instrumentos.swift */; };
 		3D678A7528EB3B75004C8802 /* CeldaInstrumentosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D678A7428EB3B75004C8802 /* CeldaInstrumentosController.swift */; };
+		3DA0A40928F081CA0084D36F /* Philosopher-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0A40828F081CA0084D36F /* Philosopher-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		3D678A6E28EB32D0004C8802 /* Quick.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quick.ttf; sourceTree = "<group>"; };
 		3D678A7028EB3906004C8802 /* Instrumentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrumentos.swift; sourceTree = "<group>"; };
 		3D678A7428EB3B75004C8802 /* CeldaInstrumentosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaInstrumentosController.swift; sourceTree = "<group>"; };
+		3DA0A40828F081CA0084D36F /* Philosopher-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Philosopher-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			children = (
 				3D64209A28EDCCCB0009A920 /* BroadwayFlat.ttf */,
 				3D678A6E28EB32D0004C8802 /* Quick.ttf */,
+				3DA0A40828F081CA0084D36F /* Philosopher-Regular.ttf */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				3D64209B28EDCCCB0009A920 /* BroadwayFlat.ttf in Resources */,
 				3D678A3728EB28F2004C8802 /* LaunchScreen.storyboard in Resources */,
 				3D678A3428EB28F2004C8802 /* Assets.xcassets in Resources */,
+				3DA0A40928F081CA0084D36F /* Philosopher-Regular.ttf in Resources */,
 				3D0E88B028EC9A2200CD368C /* Quick.ttf in Resources */,
 				3D678A3228EB28EC004C8802 /* Main.storyboard in Resources */,
 			);
