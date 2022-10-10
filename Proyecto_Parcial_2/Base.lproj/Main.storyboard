@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wYs-tM-LrN">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -33,31 +33,31 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiV-p8-OqA">
-                                <rect key="frame" x="20" y="146" width="32.5" height="18.5"/>
+                                <rect key="frame" x="19.999999999999996" y="146" width="32.666666666666657" height="18.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dificultad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sa9-Sd-zGq">
-                                <rect key="frame" x="20" y="172.5" width="70.5" height="19"/>
+                                <rect key="frame" x="20" y="172.66666666666666" width="70.666666666666671" height="19"/>
                                 <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Material" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01R-yX-16E">
-                                <rect key="frame" x="20" y="199.5" width="60" height="18.5"/>
+                                <rect key="frame" x="20" y="199.66666666666666" width="60" height="18.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Música:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z58-ng-j6S">
-                                <rect key="frame" x="230" y="145" width="56" height="18.5"/>
+                                <rect key="frame" x="230" y="145" width="56" height="18.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bandas:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHx-3g-7K1">
-                                <rect key="frame" x="218" y="199" width="57" height="18.5"/>
+                                <rect key="frame" x="218" y="199.33333333333334" width="57" height="18.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -69,7 +69,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caravana Place" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggf-CU-NPX">
-                                <rect key="frame" x="283" y="199" width="111" height="18.5"/>
+                                <rect key="frame" x="283" y="199.66666666666666" width="111" height="18.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -86,13 +86,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ju-Wz-iNu">
-                                                    <rect key="frame" x="20" y="11" width="58" height="18.5"/>
+                                                    <rect key="frame" x="20" y="11.000000000000002" width="58" height="18.666666666666671"/>
                                                     <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banda/Solista" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rg2-P2-awj">
-                                                    <rect key="frame" x="20" y="37.5" width="100.5" height="19"/>
+                                                    <rect key="frame" x="20.000000000000007" y="37.666666666666664" width="100.66666666666669" height="19"/>
                                                     <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
@@ -117,16 +117,16 @@
                                     <outlet property="delegate" destination="fTb-9o-0et" id="BPG-EO-721"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AltaPopularidad" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlY-af-9Ix">
-                                <rect key="frame" x="279" y="173" width="115" height="18.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alta" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlY-af-9Ix">
+                                <rect key="frame" x="365" y="173" width="29" height="19"/>
                                 <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NameCreador" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKb-I5-3I1">
-                                <rect key="frame" x="32" y="237" width="101" height="18.5"/>
-                                <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
-                                <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="292" y="233.33333333333334" width="89.666666666666686" height="17"/>
+                                <fontDescription key="fontDescription" name="Quick" family="Quick" pointSize="17"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artistas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohP-aC-SGB">
@@ -136,9 +136,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18xx" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPQ-Cr-jsh">
-                                <rect key="frame" x="349" y="237" width="32" height="18.5"/>
+                                <rect key="frame" x="353" y="258.33333333333331" width="26.666666666666686" height="17"/>
+                                <fontDescription key="fontDescription" name="Quick" family="Quick" pointSize="17"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popularidad:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U98-FC-9Fl">
+                                <rect key="frame" x="267" y="172" width="90" height="18.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
-                                <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -152,17 +158,21 @@
                             <constraint firstItem="YiV-p8-OqA" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="7aV-Ts-z0D"/>
                             <constraint firstItem="rHx-3g-7K1" firstAttribute="top" secondItem="Z58-ng-j6S" secondAttribute="bottom" constant="35.5" id="8sZ-Ui-w7p"/>
                             <constraint firstItem="Z58-ng-j6S" firstAttribute="top" secondItem="1ir-ks-TXR" secondAttribute="top" constant="57" id="8wW-yB-vwl"/>
+                            <constraint firstItem="vlY-af-9Ix" firstAttribute="leading" secondItem="U98-FC-9Fl" secondAttribute="trailing" constant="8" id="97p-Ji-M8f"/>
                             <constraint firstItem="ohP-aC-SGB" firstAttribute="top" secondItem="vNG-XH-BEc" secondAttribute="bottom" constant="8" id="BEJ-PR-ppd"/>
                             <constraint firstItem="1ir-ks-TXR" firstAttribute="trailing" secondItem="vNG-XH-BEc" secondAttribute="trailing" constant="20" id="CmR-MQ-N0J"/>
                             <constraint firstItem="MEz-jj-uXz" firstAttribute="top" secondItem="ohP-aC-SGB" secondAttribute="bottom" constant="8" id="De4-8B-Azd"/>
                             <constraint firstItem="vlY-af-9Ix" firstAttribute="top" secondItem="Wew-oT-sEd" secondAttribute="bottom" constant="9" id="IHh-EB-klU"/>
                             <constraint firstItem="Wew-oT-sEd" firstAttribute="top" secondItem="1ir-ks-TXR" secondAttribute="top" constant="58" id="JaQ-Nu-oTx"/>
+                            <constraint firstItem="1ir-ks-TXR" firstAttribute="trailing" secondItem="tKb-I5-3I1" secondAttribute="trailing" constant="32.5" id="Ma3-wD-ear"/>
+                            <constraint firstItem="tKb-I5-3I1" firstAttribute="top" secondItem="ggf-CU-NPX" secondAttribute="bottom" constant="15.5" id="PbW-m4-219"/>
+                            <constraint firstItem="1ir-ks-TXR" firstAttribute="trailing" secondItem="dPQ-Cr-jsh" secondAttribute="trailing" constant="34.5" id="RZJ-ud-u30"/>
                             <constraint firstItem="vNG-XH-BEc" firstAttribute="height" secondItem="Kjc-VR-Jc0" secondAttribute="height" multiplier="0.305804" id="VqO-Cg-flh"/>
                             <constraint firstItem="01R-yX-16E" firstAttribute="top" secondItem="sa9-Sd-zGq" secondAttribute="bottom" constant="8" id="WBi-z0-hr4"/>
-                            <constraint firstItem="tKb-I5-3I1" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="32" id="WLN-RH-IQ5"/>
-                            <constraint firstItem="tKb-I5-3I1" firstAttribute="top" secondItem="01R-yX-16E" secondAttribute="bottom" constant="19" id="Yyp-F8-0Pd"/>
+                            <constraint firstItem="dPQ-Cr-jsh" firstAttribute="top" secondItem="tKb-I5-3I1" secondAttribute="bottom" constant="8" id="Y4g-gm-qoY"/>
                             <constraint firstItem="Wew-oT-sEd" firstAttribute="leading" secondItem="Z58-ng-j6S" secondAttribute="trailing" constant="8" id="bLx-li-Z0l"/>
                             <constraint firstItem="sa9-Sd-zGq" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="cN0-7e-HD3"/>
+                            <constraint firstItem="U98-FC-9Fl" firstAttribute="top" secondItem="Wew-oT-sEd" secondAttribute="bottom" constant="8" id="eg4-H1-7Fq"/>
                             <constraint firstItem="ggf-CU-NPX" firstAttribute="top" secondItem="vlY-af-9Ix" secondAttribute="bottom" constant="7.5" id="fPP-Uk-brO"/>
                             <constraint firstItem="MEz-jj-uXz" firstAttribute="bottom" secondItem="1ir-ks-TXR" secondAttribute="bottom" id="fxp-S6-Msi"/>
                             <constraint firstItem="vNG-XH-BEc" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="g2W-sw-KEa"/>
@@ -173,9 +183,7 @@
                             <constraint firstItem="1ir-ks-TXR" firstAttribute="trailing" secondItem="vlY-af-9Ix" secondAttribute="trailing" constant="20" id="okD-kn-XFK"/>
                             <constraint firstItem="ohP-aC-SGB" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="qaD-3J-Hgu"/>
                             <constraint firstItem="MEz-jj-uXz" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="tGC-i4-I33"/>
-                            <constraint firstItem="dPQ-Cr-jsh" firstAttribute="top" secondItem="ggf-CU-NPX" secondAttribute="bottom" constant="19.5" id="vyZ-k7-v0G"/>
                             <constraint firstItem="Sqj-iF-D9P" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="yB8-8M-RnP"/>
-                            <constraint firstItem="1ir-ks-TXR" firstAttribute="trailing" secondItem="dPQ-Cr-jsh" secondAttribute="trailing" constant="33" id="ykZ-Qg-nq7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1ir-ks-TXR"/>
                     </view>
@@ -233,7 +241,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dificultad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eul-yI-P3A">
-                                                    <rect key="frame" x="172" y="123" width="95.5" height="25"/>
+                                                    <rect key="frame" x="172" y="123" width="95.666666666666686" height="25"/>
                                                     <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="23"/>
                                                     <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
