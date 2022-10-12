@@ -26,6 +26,10 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vNG-XH-BEc">
                                 <rect key="frame" x="20" y="226" width="374" height="274"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dv3-zd-HHD">
+                                <rect key="frame" x="20" y="226" width="374" height="274"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sqj-iF-D9P">
                                 <rect key="frame" x="20" y="115" width="69" height="23"/>
                                 <fontDescription key="fontDescription" name="Quick" family="Quick" pointSize="23"/>
@@ -57,7 +61,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bandas:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHx-3g-7K1">
-                                <rect key="frame" x="218" y="199" width="57" height="19"/>
+                                <rect key="frame" x="218" y="199.33333333333334" width="57" height="19"/>
                                 <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -124,10 +128,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NameCreador" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKb-I5-3I1">
-                                <rect key="frame" x="292" y="233.66666666666666" width="89.666666666666686" height="17"/>
-                                <fontDescription key="fontDescription" name="Quick" family="Quick" pointSize="17"/>
-                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="244.66666666666663" y="233.33333333333334" width="137" height="27.000000000000028"/>
+                                <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <size key="shadowOffset" width="1" height="2"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artistas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohP-aC-SGB">
                                 <rect key="frame" x="20" y="508" width="69" height="23"/>
@@ -136,10 +142,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18xx" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPQ-Cr-jsh">
-                                <rect key="frame" x="353" y="258.66666666666669" width="26.666666666666686" height="17"/>
-                                <fontDescription key="fontDescription" name="Quick" family="Quick" pointSize="17"/>
-                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="336.33333333333331" y="268.33333333333331" width="43.333333333333314" height="27"/>
+                                <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <size key="shadowOffset" width="1" height="2"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popularidad:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U98-FC-9Fl">
                                 <rect key="frame" x="267" y="172" width="90" height="18.666666666666657"/>
@@ -172,17 +180,21 @@
                             <constraint firstItem="dPQ-Cr-jsh" firstAttribute="top" secondItem="tKb-I5-3I1" secondAttribute="bottom" constant="8" id="Y4g-gm-qoY"/>
                             <constraint firstItem="Wew-oT-sEd" firstAttribute="leading" secondItem="Z58-ng-j6S" secondAttribute="trailing" constant="8" id="bLx-li-Z0l"/>
                             <constraint firstItem="sa9-Sd-zGq" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="cN0-7e-HD3"/>
+                            <constraint firstItem="1ir-ks-TXR" firstAttribute="trailing" secondItem="Dv3-zd-HHD" secondAttribute="trailing" constant="20" id="cxB-WT-kg3"/>
                             <constraint firstItem="U98-FC-9Fl" firstAttribute="top" secondItem="Wew-oT-sEd" secondAttribute="bottom" constant="8" id="eg4-H1-7Fq"/>
                             <constraint firstItem="ggf-CU-NPX" firstAttribute="top" secondItem="vlY-af-9Ix" secondAttribute="bottom" constant="7.5" id="fPP-Uk-brO"/>
                             <constraint firstItem="MEz-jj-uXz" firstAttribute="bottom" secondItem="1ir-ks-TXR" secondAttribute="bottom" id="fxp-S6-Msi"/>
                             <constraint firstItem="vNG-XH-BEc" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="g2W-sw-KEa"/>
                             <constraint firstItem="YiV-p8-OqA" firstAttribute="top" secondItem="Sqj-iF-D9P" secondAttribute="bottom" constant="8" id="iHV-xs-uMn"/>
                             <constraint firstItem="01R-yX-16E" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="jag-1U-5BP"/>
+                            <constraint firstItem="Dv3-zd-HHD" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="kVW-5r-lje"/>
                             <constraint firstItem="vNG-XH-BEc" firstAttribute="top" secondItem="01R-yX-16E" secondAttribute="bottom" constant="8" id="nhI-fB-K2X"/>
                             <constraint firstItem="1ir-ks-TXR" firstAttribute="trailing" secondItem="MEz-jj-uXz" secondAttribute="trailing" constant="20" id="oNe-uF-ejA"/>
                             <constraint firstItem="1ir-ks-TXR" firstAttribute="trailing" secondItem="vlY-af-9Ix" secondAttribute="trailing" constant="20" id="okD-kn-XFK"/>
                             <constraint firstItem="ohP-aC-SGB" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="qaD-3J-Hgu"/>
+                            <constraint firstItem="Dv3-zd-HHD" firstAttribute="top" secondItem="rHx-3g-7K1" secondAttribute="bottom" constant="7.6699999999999999" id="spl-tv-UOj"/>
                             <constraint firstItem="MEz-jj-uXz" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="tGC-i4-I33"/>
+                            <constraint firstItem="ohP-aC-SGB" firstAttribute="top" secondItem="Dv3-zd-HHD" secondAttribute="bottom" constant="8" id="vtj-38-eju"/>
                             <constraint firstItem="Sqj-iF-D9P" firstAttribute="leading" secondItem="1ir-ks-TXR" secondAttribute="leading" constant="20" id="yB8-8M-RnP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1ir-ks-TXR"/>
